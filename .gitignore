@@ -1,0 +1,26 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== 数据与运行产物 =====
+chroma_db/
+logs/
+*.log
+
+# ===== 密钥与本地配置 =====
+.env
+*.env
+.env.local
+application-local.properties
+secrets*.py
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
